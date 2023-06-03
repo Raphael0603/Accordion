@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="firstlayer">
+            <button id="myElement1" type="button" class="coll" onmousemove="firstlayer()">
+                <h3>INFORMATION MANAGEMENT </h3>
+            </button>
+            <div id="text1" class="content" style="display: none;">
+                <p id="text-1"></p>
+            </div>
+        </div>
+        <div class="secondlayer">
+            <button id="myElement2" type="button" class="coll" onmousemove="secondlayer()">
+                <h3>NETWORKING 1 </h3>
+            </button>
+            <div id="text2" class="content" style="display: none;">
+                <p id="text-2"></p>
+            </div>
+        </div>
+        <div class="thirdlayer">
+            <button id="myElement3" type="button" class="coll" onmousemove="thirdlayer()">
+                <h3>WEB SYSTEMS AND TECHNOLOGIES <h3>
+            </button>
+            <div id="text3" class="content" style="display: none;">
+                <p id="text-3"></p>
+            </div>
+        </div>
+        <div class="fourthlayer">
+            <button id="myElement4" type="button" class="coll" onmousemove="fourthlayer()">
+                <h3>SYSTEMS INTEGRATION AND ARCHITECTURE 1 </h3>
+            </button>
+            <div id="text4" class="content" style="display: none;">
+                <p id="text-4"></p>
+            </div>
+        </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>

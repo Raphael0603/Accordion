@@ -1,0 +1,35 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: none;
+  color: rgb(93, 43, 0);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 15rem 10rem 7rem 20rem;
+  background: none;
+}
+
+.coll{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  border: none;
+  border-bottom: 1px;
+  text-align: justify;
+  transition: 0.5s;
+}
+
+.content{
+  text-align: justify;
+  margin: auto;
+  width: 100%;
+  font-size: medium;
+}
+
+.active, .coll:hover {
+  background-color: rgb(241, 216, 169);
+  color: brown;
+}
